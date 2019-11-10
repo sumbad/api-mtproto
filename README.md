@@ -3,7 +3,7 @@
 It does have docs
 
 
-# telegram-mtproto
+# api-mtproto
 
 [![npm version][npm-image]][npm-url]
 
@@ -27,10 +27,10 @@ The Mobile Protocol is subdivided into three components ([from the official site
 
 
 
-## telegram-mtproto in short..
+## api-mtproto in short..
 
 No more additional libs.
-The **telegram-mtproto** library implements the **Mobile Protocol** and provides all features for work with telegram protocol:
+The **api-mtproto** library implements the **Mobile Protocol** and provides all features for work with telegram protocol:
 
  - A high level api for server connection
 
@@ -54,13 +54,13 @@ The **telegram-mtproto** library implements the **Mobile Protocol** and provides
 ## Installation
 
 ```bash
-$ npm install --save telegram-mtproto@beta
+$ npm install --save api-mtproto@beta
 ```
 
 ## Usage
 
 ```javascript
-import MTProto from 'telegram-mtproto'
+import MTProto from 'api-mtproto'
 
 const phone = {
   num : '+9996620001',
@@ -132,7 +132,7 @@ interface AsyncStorage {
 ```
 
 ```javascript
-import { MTProto } from 'telegram-mtproto'
+import { MTProto } from 'api-mtproto'
 import { api } from './config'
 import CustomStorage from './storage'
 
@@ -149,10 +149,10 @@ const client = MTProto({
 
 The project is released under the [Mit License](./LICENSE)
 
-[examples]: https://github.com/zerobias/telegram-mtproto/tree/develop/examples
+[examples]: https://github.com/zerobias/api-mtproto/tree/develop/examples
 [localForage]: https://github.com/localForage/localForage
 [docs]: https://core.telegram.org/
 [send-code]: https://core.telegram.org/method/auth.sendCode
 [sign-in]: https://core.telegram.org/method/auth.signIn
-[npm-url]: https://www.npmjs.org/package/telegram-mtproto
-[npm-image]: https://badge.fury.io/js/telegram-mtproto.svg
+[npm-url]: https://www.npmjs.org/package/api-mtproto
+[npm-image]: https://badge.fury.io/js/api-mtproto.svg

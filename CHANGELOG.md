@@ -33,7 +33,7 @@ Several early alpha versions based on new architechture
 
 * Https connection. Usage:
 ```javascript
-const { network } = require('telegram-mtproto')
+const { network } = require('api-mtproto')
 const connection = network.http({ host: 'ip', port: '80', protocol: 'https' })
 ```
 * Websockets connection. Usage:

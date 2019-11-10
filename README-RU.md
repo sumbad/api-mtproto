@@ -1,4 +1,4 @@
-# telegram-mtproto
+# api-mtproto
 
 [![npm version][npm-image]][npm-url]
 
@@ -15,10 +15,10 @@ Mobile Protocol подразделятся на 3 части ([с официал
  - **Транспортный компонент:** определяет протоколы по которым будут общаться клиент и сервер (такие как, `http`, `https`, `tcp`, `udp`).
 
 
-## Про telegram-mtproto в двух словах...
+## Про api-mtproto в двух словах...
 
 Никакие другие пакеты не нужны.
-Пакет **telegram-mtproto** позволяет реализовать все возможности работы с **Mobile Protocol**:
+Пакет **api-mtproto** позволяет реализовать все возможности работы с **Mobile Protocol**:
 
  - Выший уровень API для подключения к серверу
 
@@ -42,13 +42,13 @@ Mobile Protocol подразделятся на 3 части ([с официал
 ## Установка
 
 ```bash
-$ npm install --save telegram-mtproto@beta
+$ npm install --save api-mtproto
 ```
 
 ## Использование
 
 ```javascript
-import MTProto from 'telegram-mtproto'
+import MTProto from 'api-mtproto'
 
 const phone = {
   num : '+79123456789',
@@ -130,7 +130,7 @@ interface AsyncStorage {
 ```
 
 ```javascript
-import { MTProto } from 'telegram-mtproto'
+import { MTProto } from 'api-mtproto'
 import { api } from './config'
 import CustomStorage from './storage'
 
@@ -147,10 +147,10 @@ const client = MTProto({
 
 Проект запущен под лицензией [MIT](./LICENSE)
 
-[examples]: https://github.com/zerobias/telegram-mtproto/tree/develop/examples
+[examples]: https://github.com/sumbad/api-mtproto/tree/master/examples
 [localForage]: https://github.com/localForage/localForage
 [docs]: https://core.telegram.org/
 [send-code]: https://core.telegram.org/method/auth.sendCode
 [sign-in]: https://core.telegram.org/method/auth.signIn
-[npm-url]: https://www.npmjs.org/package/telegram-mtproto
-[npm-image]: https://badge.fury.io/js/telegram-mtproto.svg
+[npm-url]: https://www.npmjs.org/package/api-mtproto
+[npm-image]: https://badge.fury.io/js/api-mtproto.svg

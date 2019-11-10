@@ -55,7 +55,7 @@ const stringNormalize = when(
 //   pretty
 // )
 
-const genericLogger = Debug('telegram-mtproto')
+const genericLogger = Debug('api-mtproto')
 
 class LogEvent {
   log: typeof genericLogger
@@ -99,7 +99,7 @@ const sheduler = new Sheduler
 
 const Logger = (moduleName: VariString, ...rest: string[]) => {
   const fullModule: string[] = arrify(moduleName, ...rest)
-  fullModule.unshift('telegram-mtproto')
+  fullModule.unshift('api-mtproto')
   const fullname = fullModule.join(':')
   const debug = Debug(fullname)
   const logger = (tags: string | string[]) => {

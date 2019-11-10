@@ -1,4 +1,4 @@
-const { MTProto } = require('telegram-mtproto')
+const { MTProto } = require('api-mtproto')
 const { Storage } = require('mtproto-storage-fs')
 const readline = require('readline')
 

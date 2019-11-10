@@ -1,4 +1,4 @@
-declare module 'telegram-mtproto' {
+declare module 'api-mtproto' {
   type DC = {
     id: number
     host: string
