@@ -1,6 +1,6 @@
 {
-  "description": "Telegram MTProto library",
-  "name": "telegram-mtproto",
+  "description": "MTProto library for use Telegram API",
+  "name": "api-mtproto",
   "license": "MIT",
   "main": "lib/index.js",
   "jsnext:main": "es/index.js",
@@ -28,7 +28,7 @@
     "@goodmind/node-cryptojs-aes": "^0.5.0",
     "ajv": "^4.11.5",
     "ajv-keywords": "^1.5.1",
-    "axios": "^0.15.3",
+    "axios": "^0.19.0",
     "bluebird": "^3.5.0",
     "debug": "^2.6.3",
     "detect-node": "^2.0.3",
@@ -38,7 +38,7 @@
     "ramda": "^0.23.0",
     "randombytes": "^2.0.3",
     "rusha": "^0.8.5",
-    "worker-loader": "^0.8.0"
+    "worker-loader": "^1.1.1"
   },
   "devDependencies": {
     "@types/debug": "0.0.29",
@@ -66,14 +66,14 @@
     "nightmare": "^2.10.0",
     "prompt": "^1.0.0",
     "rimraf": "^2.6.1",
-    "tap": "^10.3.0",
+    "tap": "^14.9.2",
     "webpack": "^2.2.1"
   },
   "engines": {
     "node": ">=6.0"
   },
   "bugs": {
-    "url": "https://github.com/zerobias/telegram-mtproto/issues"
+    "url": "https://github.com/sumbad/api-mtproto/issues"
   },
   "files": [
     "lib",
@@ -92,16 +92,10 @@
     "protocol",
     "library"
   ],
-  "maintainers": [
-    {
-      "name": "Zero Bias",
-      "email": "ribkatt@gmail.com"
-    }
-  ],
   "readme": "README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zerobias/telegram-mtproto.git"
+    "url": "git+https://github.com/sumbad/api-mtproto.git"
   },
-  "version": "2.2.2"
+  "version": "0.0.1"
 }
